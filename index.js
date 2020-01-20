@@ -4,9 +4,9 @@
 const	mootools = require('mootools')
 			// couchdb = require('couchdb-pouchdb-server');
 
-const debug = require('debug')('js-pipeline.input.CouchDB'),
-      debug_events = require('debug')('js-pipeline.input.CouchDB:Events'),
-      debug_internals = require('debug')('js-pipeline.input.CouchDB:Internals')
+const debug = require('debug')('js-pipeline.output.CouchDB'),
+      debug_events = require('debug')('js-pipeline.output.CouchDB:Events'),
+      debug_internals = require('debug')('js-pipeline.output.CouchDB:Internals')
 
 /**
  * CouchDBOutput
